@@ -316,7 +316,7 @@ a.read-more:hover {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    letter-spacing: 10px;
+    letter-spacing: 2px;
 }
 
 .mainmenu .navbar-nav li a {
@@ -740,10 +740,11 @@ a.slide-btn:hover {
 
 .single-testi-des {
     background: #fff;
-    padding: 30px;
+    padding: 20px;
     box-shadow: 1px 1px 2px rgba(222, 222, 222, 0.32);
     border-radius: 5px;
     margin-bottom: 30px;
+    height: 500px;
     position: relative;
     color: #363636;
 }
@@ -762,25 +763,30 @@ a.slide-btn:hover {
     transform: rotate(45deg);
 }
 
-.single-testimonial img {
-    width: 60px;
-    border-radius: 50%;
-}
-
 .single-testimonial {
     margin-right: 30px;
+    -ms-word-break: break-all;
+	word-break: break-all;
+
+	/* Non standard for WebKit */
+	word-break: break-word;
+
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+	hyphens: auto;
 }
 
 .single-testimonial h6 {
     margin-top: 0px;
     font-size: 12px;
-    text-transform: capitalize;
     letter-spacing: 3px;
+    
+    
 }
 
 .single-testimonial p {
     font-style: italic;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .owl-theme .owl-controls {
@@ -852,6 +858,16 @@ a.slide-btn:hover {
 .plan-features {
     margin-top: 40px;
     color: #363636;
+    font-size: 14px;
+    -ms-word-break: break-all;
+	word-break: break-all;
+
+	/* Non standard for WebKit */
+	word-break: break-word;
+
+-webkit-hyphens: auto;
+  -moz-hyphens: auto;
+	   hyphens: auto;
 }
 
 .plan-features li {
