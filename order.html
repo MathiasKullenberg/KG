@@ -90,8 +90,8 @@
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2">
                                 <div class="header-text text-center">
-                                    <h2>Hold træning</h2>
-                                    <p>Vi hos KG kan også komme ud og træne jeres hold</p>
+                                    <h2>Bestilling af træning</h2>
+                                    <p>Vi kontakter dig hurtigst muligt efter afsendelse af denne formular</p>
                                    <!-- START CONTACT DESIGN AREA -->             
                                           
                                         
@@ -99,26 +99,33 @@
                                             <div class="col-md-8 col-md-offset-2">
                                                 <!-- START CONTACT FORM DESIGN AREA -->
                                                 <div class="contact-form">
-                                                    <form id="contact-form" method="post" enctype="multipart/form-data">
+                                                    <form action="https://getsimpleform.com/messages?form_api_token=a407d95306346aa44b2b61558d78e22e" method="post">    
                                                         <div class="row">
                                                             <div class="form-group col-md-12">
-                                                                <input type="text" name="name" class="form-control" id="first-name" placeholder="Navn" required="required">
+                                                                <label for="type">Hvilken type træning kunne du godt tænke dig?</label>
+                                                                <select id="cars" name="cars">
+                                                                <option value="volvo">Individuel</option>
+                                                                <option value="saab">Gruppe</option>
+                                                                <option value="fiat">Hold</option>
+                                                                
+                                                                </select>
                                                             </div>
                                                             <div class="form-group col-md-12">
-                                                                <input type="text" name="name" class="form-control" id="first-name" placeholder="Årgang" required="required">
+                                                                <input type="text" name="navn" class="form-control" placeholder="Navn/Navne" required="required">
                                                             </div>
                                                             <div class="form-group col-md-12">
-                                                                <input type="text" name="name" class="form-control" id="first-name" placeholder="Hold" required="required">
+                                                                <input type="text" name="Hold og årgang" class="form-control" placeholder="Hold og årgang" required="required">
                                                             </div>
                                                             <div class="form-group col-md-12">
-                                                                <input type="email" name="email" class="form-control" id="email" placeholder="Email" required="required">
+                                                                <input type="text" name="kontakt" class="form-control" placeholder="Mail/Telefonnummer" required="required">
                                                             </div>
+                                                            
                                                             <div class="form-group col-md-12">
-                                                                <input type="email" name="email" class="form-control" id="email" placeholder="Telefonnummer" required="required">
+                                                                <input type="email" name="antal" placeholder="Evt. antal sessioner ønsket" class="form-control" >
                                                             </div>
                                                             <div class="col-md-12 text-center">
                                                                 <div class="actions">
-                                                                    <input type="submit" value="submit" name="submit" id="submitButton" class="btn btn-lg btn-contact-bg" title="Submit Your Message!">
+                                                                    <input type='submit' value='Bestil' />
                                                                 </div>
                                                             </div>
                                                         </div>
