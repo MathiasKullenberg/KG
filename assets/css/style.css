@@ -909,6 +909,12 @@ a.slide-btn:hover {
     font-weight: 300;
 }
 
+.download-area img {
+    height: 150px;
+    width: 150px;
+    margin-left: ;
+   
+}
 
 /*
 * ----------------------------------------------------------------------------------------
