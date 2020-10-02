@@ -655,7 +655,8 @@ a.slide-btn:hover {
 .single-team {
     margin-top: 30px;
     position: relative;
-    height: 500px;
+    
+
 }
 
 .single-team img {
@@ -913,9 +914,13 @@ a.slide-btn:hover {
 .download-area img {
     height: 120px;
     width: 250px;
+    margin-left: 130px;
+    margin-right: 130px;
     
    
 }
+
+
 
 /*
 * ----------------------------------------------------------------------------------------
