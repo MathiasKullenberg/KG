@@ -319,6 +319,11 @@ a.read-more:hover {
     letter-spacing: 2px;
 }
 
+.logo img {
+    height: 100px;
+    width:155px;
+}
+
 .mainmenu .navbar-nav li a {
     color: #fff;
     text-transform: uppercase;
